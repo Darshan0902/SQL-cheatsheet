@@ -20,3 +20,7 @@ select * from tabename where value = "Needed Value"
 4.) To get whole name for a less known value :( Darshan is name but I only know Dar)
 
 select*from tablename where column_1 like name = "Dar%" 
+
+5. ) To get value for a specific data period  : 
+
+select*from tablename where date is between "DD-MM-YYYY" and "DD-MM-YYYY" 
