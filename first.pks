@@ -24,3 +24,9 @@ select*from tablename where column_1 like name = "Dar%"
 5. ) To get value for a specific data period  : 
 
 select*from tablename where date is between "DD-MM-YYYY" and "DD-MM-YYYY" 
+
+
+
+6.) To get average of any particuar column : 
+
+select AVG('column') from tablename 
