@@ -74,3 +74,72 @@ select * from tablename group by columns_name
 select * from tablename order by column_name
 
 
+
+12.) To get average of all columns in a order : 
+
+SELECT avg(column1) from tablename group by column1
+
+EG : 
+SELECT categoryid,avg(price) from products group by categoryid
+
+
+
+
+
+13.) To sort according to a particular ID in ascending order : 
+
+
+select*from table order by columnname asc
+
+
+
+14.) To sort according to a particular ID in descending order : 
+
+
+select*from table order by columnname desc 
+
+
+15.) To sort according to a particular ID in descending order and get only first few values : 
+
+
+select*from table order by columnname desc limit 1 ( works the same as Pandas Head) . 
+
+
+16.) Using " in " to get a particular row value : 
+
+SELECT * from tablename where column in ("rowvalue1" ,  "rowvalue2" )
+
+
+
+17.) Sub query in SQl 
+
+SELECT * FROM columns where column in (select column2 from tablename where column3 = "needed value")
+
+
+
+18.) Creating a relation between two databases having a common column using "join":
+
+select*from tablerow1 join  tablerow2 on common_row1.table1 = common_row1.table2 
+
+
+19.) To arrange the above query in a order :  
+SELECT * FROM customers join orders on customers.customerID = orders.customerID order by customerID
+
+
+20.) To get a specific row of the joined database : 
+
+SELECT * FROM customers join orders on customers.customerID = orders.customerID where rowname.tablename = neededvalue order by customerID
+
+
+21.) To get rid of duplicate values : 
+
+select count(distinct , columnname) from table 
+
+22.) To get different categories in a particular column : 
+
+select distinct columnname from table
+
+23.) Left Join 
+
+select*from tablerow1 leftjoin tablerow2 on commonrow1.table1 = commonrow2.table2 
+
