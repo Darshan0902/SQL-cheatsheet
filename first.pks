@@ -67,3 +67,10 @@ select min(column_name) as MinPrice from tablename
 10.) To retrieve different categorical variables present in column : 
 
 select * from tablename group by columns_name 
+
+
+11.)  To retreive in a sorted order : 
+
+select * from tablename order by column_name
+
+
