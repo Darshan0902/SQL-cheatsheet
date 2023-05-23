@@ -13,4 +13,10 @@ SELECT * FROM tablename
 
 select column_1 , column_2 from tablenmae 
 
-3.) 
+3.) To display only one row  :
+
+select * from tabename where value = "Needed Value" 
+
+4.) To get whole name for a less known value :( Darshan is name but I only know Dar)
+
+select*from tablename where column_1 like name = "Dar%" 
