@@ -43,6 +43,8 @@ select AVG('column') from tablename
 
 
 
+
+
 7.) To get count of any particuar column : 
 
 select count('column') from tablename 
@@ -58,3 +60,10 @@ select min(column_name) from tablename
 9.) To change the name of column as well : 
 
 select min(column_name) as MinPrice from tablename 
+
+
+
+
+10.) To retrieve different categorical variables present in column : 
+
+select * from tablename group by columns_name 
