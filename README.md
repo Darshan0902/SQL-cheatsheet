@@ -1,7 +1,7 @@
 # SQL-cheatsheet
 
 # 1.) SQL Basics
-
+(Structured Query Language).
 This repository provides a beginner-friendly introduction to SQL (Structured Query Language). SQL is a programming language used for managing and manipulating relational databases. Whether you're new to SQL or need a refresher, this guide will help you understand the fundamentals and get started with SQL.
 
 ## Table of Contents
